@@ -1,0 +1,52 @@
+<?php header('Access-Control-Allow-Origin: *'); ?>
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "chtholly.moc",
+  "textures": [
+    "chtholly.2048/texture_00.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "motions": {
+    "tap": [
+      {
+        "file": "motions/tap/08 00_07_38.30-00_07_40.90.mtn",
+        "sound": "motions/tap/08 00_07_38.30-00_07_40.90.wav"
+      },
+      {
+        "file": "motions/tap/08 00_07_55-00_07_59.mtn",
+        "sound": "motions/tap/08 00_07_55-00_07_59.wav"
+      },
+      {
+        "file": "motions/tap/08 00_08_02.50-00_08_06.mtn",
+        "sound": "motions/tap/08 00_08_02.50-00_08_06.wav"
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/idle/haru_idle_01.mtn"
+      },
+      {
+        "file": "motions/idle/haru_idle_03.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "f01.exp.json",
+      "file": "expressions/f01.exp.json"
+    },
+    {
+      "name": "f02.exp.json",
+      "file": "expressions/f02.exp.json"
+    },
+    {
+      "name": "f03.exp.json",
+      "file": "expressions/f03.exp.json"
+    }
+  ],
+  "physics": "physics.json"
+}
