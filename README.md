@@ -4,3 +4,5 @@
 模型来自百度贴吧 @雨润熟食
 
 https://tieba.baidu.com/home/main?un=%E9%9B%A8%E6%B6%A6%E7%86%9F%E9%A3%9F
+
+永远不要跨域名调用，除非您想看到一个'no-access-control-allow-origin-header'错误
