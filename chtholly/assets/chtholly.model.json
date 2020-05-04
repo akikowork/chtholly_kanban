@@ -1,4 +1,3 @@
-<?php header('Access-Control-Allow-Origin: *'); ?>
 {
   "version": "Live2DViewerEX Config 1.0",
   "model": "chtholly.moc",
